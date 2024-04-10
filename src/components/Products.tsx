@@ -62,9 +62,9 @@ const Products = () => {
                         <h5 className='  text-[10px] lg:text-[18px] text-title'>Starting Price</h5>
                         <h1 className='  text-sm  lg:text-2xl font-bold'>1000 EGP</h1>
                       </div>
-                      <div className='flex  justify-between w-full  flex-col lg:flex-row'>
-                        <h5 className='text-title text-[10px] lg:text-xl'>Lot Starts In</h5>
-                        <div className='flex justify-between items-center lg:flex-1 lg:ml-4'>
+                      <div className='flex  justify-between w-full lg:items-center  flex-col lg:flex-row'>
+                        <h5 className='text-title text-[10px] lg:text-[15px]'>Lot Starts In</h5>
+                        <div className='flex justify-between items-center lg:flex-1 lg:ml-2'>
                           <div className='  text-yellow flex font-bold items-end gap-1'>
                             <h2 className='text-sm lg:text-xl'>2</h2>
                             <span className='text-[10px] lg:text-sm'>Days</span>
@@ -81,7 +81,7 @@ const Products = () => {
 
                       </div>
                     </div>
-                    <div className='   flex justify-end lg:px-8'>
+                    <div className='   flex justify-end lg:px-4'>
                       <CiHeart className='text-4xl' />
                     </div>
                   </div>
