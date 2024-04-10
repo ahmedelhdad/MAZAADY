@@ -22,7 +22,7 @@ const Profile = () => {
                 </div>
                 <h1 className='text-2xl font-bold'>Hala Ahmed</h1>
                 <p className='text-textColor'>I am Hala Ahmed, I am the owner of the local brand called Beauty which is for Mackeup and Skin Care.</p>
-                <div className='flex items-center px-4 justify-between'>
+                <div className='flex items-center px-4 justify-between bg-bgTitle rounded-[14px]'>
                     <div className='flex items-center gap-2'>
                         <LiaUserCheckSolid className='text-3xl text-yellow' />
                         <div className='flex flex-col'>
@@ -67,9 +67,9 @@ const Profile = () => {
                 {
                     show && (
                         <div className=''>
-                            <div className='flex items-center justify-center space-x-2'>
+                            <div className='flex items-center justify-center space-x-2  pb-6 bg-bgTitle rounded-[14px]'>
                                 <PiFileThin className=' cursor-pointer text-3xl text-yellow' />
-                                <span className='text-sm'>Download the QR code or share it with your friends.</span>
+                                <span className='text-sm '>Download the QR code or share it with your friends.</span>
                             </div>
                             <div className='bg-gradient-to-l w-full py-5 px-5 rounded-[20px] from-yellow to-btnFirstbg  ' >
                                 <div className='flex justify-start flex-col py-1 space-y-2 items-center bg-white'>
