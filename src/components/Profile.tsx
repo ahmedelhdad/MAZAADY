@@ -57,7 +57,7 @@ const Profile = () => {
                         <LuEye className=' cursor-pointer' />
                         <IoShareSocialOutline className=' cursor-pointer' />
                         <PiFileArrowDownLight className=' cursor-pointer' />
-                        <div onClick={() => setShow(!show)}>
+                        <div onClick={() => setShow(!show)} className=' lg:hidden'>
                             {
                                 show ? <IoIosArrowDown className=' cursor-pointer' /> : <IoIosArrowUp className=' cursor-pointer' />
                             }
